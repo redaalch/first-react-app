@@ -5,7 +5,8 @@ function App() {
   const user = { name: "Ava", avatarUrl: "https://i.pravatar.cc/96?u=ava" };
   return <Profile user={user} theme={theme} />;
 }
-
+/**
+ **/
 function Profile({ user, theme }) {
   return <UserCard user={user} theme={theme} />;
 }
